@@ -84,7 +84,7 @@ module.exports = "<div id=\"container\"></div>"
 /* 2 */
 /***/ (function(module, exports) {
 
-module.exports = "<header id=\"header\">    <div class=\"headbox\"></div></header>"
+module.exports = "<header id=\"header\">    <div class=\"headbox\">            </div></header>"
 
 /***/ }),
 /* 3 */
