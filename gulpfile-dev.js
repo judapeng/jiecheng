@@ -72,6 +72,10 @@ gulp.task('copyimg', () => {
   return gulp.src(['./src/images/**/*'])
     .pipe(gulp.dest('./dev/imges'))
 })
+gulp.task('copyimg1', () => {
+  return gulp.src(['./src/imgss/**/*'])
+    .pipe(gulp.dest('./dev/imgess'))
+})
 
 
 gulp.task('copylibs', () => {
@@ -101,6 +105,6 @@ gulp.task('watch', () => {
   })
 })
 
-gulp.task('default', ['js', 'scss', 'copyimg','copyhtml', 'copylibs' ,'copyicon','server', 'watch'], () => {
+gulp.task('default', ['js', 'scss', 'copyimg', 'copyimg1','copyhtml', 'copylibs' ,'copyicon','server', 'watch'], () => {
   console.log('done.');
 })
