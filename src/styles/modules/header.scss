@@ -7,10 +7,63 @@
     height: 81px;
     margin: 0 auto;
     .logo{
-     img{
-      
-     }
+      height: 81px;
+      float: left;
+      width: 190px;
+      img{
+        width: 68px;
+        height: 79px;
+        display: block;
+        float: left;
+      }
+      span{
+        width: 104px;
+        font-size: 32px;
+        height: 79px;
+        display: block;
+        line-height: 79px;
+        float: left;
+        margin-left: 5px;
+      }
     }
+    .nav,.mobil{
+      float: right;
+    }
+    .nav{
+      width: 420px;
+      height: 81px;
+      ul{
+        height: 81px;
+        li{
+          height: 81px;
+          float: left;
+          font-size: 16px;
+          padding: 0 20px;
+          line-height: 81px;
+          cursor: pointer;
+        }
+      }
+    }
+    .active{
+      color: #00beaf;
+    }
+    .mobil{
+      margin-left: 80px;
+      span{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url(../imgess/dianhua.jpg);
+        background-size: 20px 20px;
+        
+      }
+      i{
+        height: 81px;
+        line-height: 81px;
+      }
+    }
+
+
   }
 
 }

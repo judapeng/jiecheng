@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html,
 body,
 div,
@@ -107,3 +108,301 @@ a:hover {
     width: 1200px;
     height: 81px;
     margin: 0 auto; }
+    #header .headbox .logo {
+      height: 81px;
+      float: left;
+      width: 190px; }
+      #header .headbox .logo img {
+        width: 68px;
+        height: 79px;
+        display: block;
+        float: left; }
+      #header .headbox .logo span {
+        width: 104px;
+        font-size: 32px;
+        height: 79px;
+        display: block;
+        line-height: 79px;
+        float: left;
+        margin-left: 5px; }
+    #header .headbox .nav, #header .headbox .mobil {
+      float: right; }
+    #header .headbox .nav {
+      width: 420px;
+      height: 81px; }
+      #header .headbox .nav ul {
+        height: 81px; }
+        #header .headbox .nav ul li {
+          height: 81px;
+          float: left;
+          font-size: 16px;
+          padding: 0 20px;
+          line-height: 81px;
+          cursor: pointer; }
+    #header .headbox .active {
+      color: #00beaf; }
+    #header .headbox .mobil {
+      margin-left: 80px; }
+      #header .headbox .mobil span {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url(../imgess/dianhua.jpg);
+        background-size: 20px 20px; }
+      #header .headbox .mobil i {
+        height: 81px;
+        line-height: 81px; }
+
+.foots {
+  width: 1200px;
+  height: 62px;
+  margin: 0 auto; }
+  .foots .leftcopy {
+    width: 480px;
+    height: 62px;
+    line-height: 62px;
+    float: left; }
+    .foots .leftcopy span {
+      display: inline-block;
+      width: 18px;
+      height: 20px;
+      background-image: url(../imgess/ghs.png); }
+  .foots .rightnav {
+    width: 260px;
+    height: 62px;
+    float: right; }
+    .foots .rightnav div {
+      float: left;
+      padding: 0 10px; }
+      .foots .rightnav div a {
+        display: block;
+        font-size: 16px;
+        height: 62px;
+        line-height: 62px; }
+
+#banner {
+  width: 100%;
+  height: 999px;
+  background-image: url(../imgess/banner.png);
+  background-repeat: no-repeat; }
+
+#job-nav {
+  width: 1200px;
+  height: 819px;
+  margin: 0 auto;
+  padding-top: 60px; }
+  #job-nav .joblogo {
+    width: 322px;
+    height: 69px;
+    margin: 0 auto; }
+    #job-nav .joblogo h3 {
+      font-size: 32px;
+      color: #000;
+      font-weight: bolder; }
+    #job-nav .joblogo span {
+      display: block;
+      width: 322px;
+      text-align: center;
+      font-size: 12px;
+      color: #cccccc;
+      font-family: "微软雅黑";
+      margin-top: 20px; }
+  #job-nav .cleanbox {
+    width: 1200px;
+    height: 682px;
+    margin-top: 80px;
+    display: flex; }
+    #job-nav .cleanbox .blueball {
+      width: 274px;
+      height: 274px;
+      border-radius: 50%;
+      background: #00beaf;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #job-nav .cleanbox .blueball div {
+        width: 80px;
+        height: 80px;
+        color: #ffffff;
+        font-size: 30px; }
+    #job-nav .cleanbox .clean-list {
+      width: 807px;
+      height: 570px;
+      position: relative; }
+      #job-nav .cleanbox .clean-list .yuan1 {
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background: #00beaf;
+        position: absolute;
+        top: -12px; }
+      #job-nav .cleanbox .clean-list .shuxian1 {
+        width: 2px;
+        height: 520px;
+        background: #00beaf;
+        position: absolute;
+        left: 6px; }
+        #job-nav .cleanbox .clean-list .shuxian1 div {
+          width: 360px;
+          height: 1px;
+          background: #00beaf; }
+          #job-nav .cleanbox .clean-list .shuxian1 div p {
+            width: 65px;
+            position: absolute;
+            font-size: 12px;
+            top: -24px;
+            right: 10px;
+            cursor: pointer; }
+          #job-nav .cleanbox .clean-list .shuxian1 div span {
+            display: block;
+            position: absolute;
+            right: -12px;
+            top: -6px;
+            width: 12px;
+            height: 12px;
+            box-sizing: border-box;
+            border: 3px solid #00beaf;
+            border-radius: 50%; }
+        #job-nav .cleanbox .clean-list .shuxian1 .hengxian1 {
+          position: absolute;
+          top: 10px; }
+        #job-nav .cleanbox .clean-list .shuxian1 .hengxian2 {
+          position: absolute;
+          top: 100px; }
+        #job-nav .cleanbox .clean-list .shuxian1 .hengxian3 {
+          position: absolute;
+          top: 200px; }
+        #job-nav .cleanbox .clean-list .shuxian1 .hengxian4 {
+          position: absolute;
+          top: 300px; }
+        #job-nav .cleanbox .clean-list .shuxian1 .hengxian5 {
+          position: absolute;
+          top: 400px; }
+        #job-nav .cleanbox .clean-list .shuxian1 .hengxian6 {
+          position: absolute;
+          top: 500px; }
+      #job-nav .cleanbox .clean-list .yuan2 {
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background: #00beaf;
+        position: absolute;
+        top: 520px; }
+      #job-nav .cleanbox .clean-list .yuan3 {
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background: #00beaf;
+        position: absolute;
+        left: 765px;
+        top: -12px; }
+      #job-nav .cleanbox .clean-list .shuxian2 {
+        width: 2px;
+        height: 520px;
+        background: #00beaf;
+        position: absolute;
+        left: 771px; }
+        #job-nav .cleanbox .clean-list .shuxian2 div {
+          width: 360px;
+          height: 1px;
+          background: #00beaf; }
+          #job-nav .cleanbox .clean-list .shuxian2 div p {
+            position: absolute;
+            left: 10px;
+            font-size: 12px;
+            top: -24px;
+            cursor: pointer; }
+          #job-nav .cleanbox .clean-list .shuxian2 div span {
+            display: block;
+            position: absolute;
+            top: -6px;
+            left: -12px;
+            width: 12px;
+            height: 12px;
+            box-sizing: border-box;
+            border: 3px solid #00beaf;
+            border-radius: 50%; }
+        #job-nav .cleanbox .clean-list .shuxian2 .leftxian1 {
+          position: absolute;
+          left: -360px;
+          top: 157px; }
+        #job-nav .cleanbox .clean-list .shuxian2 .leftxian2 {
+          position: absolute;
+          left: -360px;
+          top: 257px; }
+        #job-nav .cleanbox .clean-list .shuxian2 .leftxian3 {
+          position: absolute;
+          left: -360px;
+          top: 357px; }
+      #job-nav .cleanbox .clean-list .yuan4 {
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background: #00beaf;
+        position: absolute;
+        left: 765px;
+        top: 520px; }
+
+#spe {
+  width: 100%;
+  height: 1020px;
+  background-image: url(../imgess/bveijingh01.jpg);
+  background-repeat: no-repeat;
+  padding-top: 60px; }
+  #spe .spebox {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto; }
+    #spe .spebox .joblogo {
+      width: 322px;
+      height: 69px;
+      margin: 0 auto; }
+      #spe .spebox .joblogo h3 {
+        font-size: 32px;
+        color: #000;
+        font-weight: bolder; }
+      #spe .spebox .joblogo span {
+        display: block;
+        width: 322px;
+        text-align: center;
+        font-size: 12px;
+        color: #cccccc;
+        font-family: "微软雅黑";
+        margin-top: 20px; }
+    #spe .spebox .yuantu {
+      width: 1200px;
+      height: 350px;
+      margin-top: 110px;
+      display: flex;
+      justify-content: space-between; }
+      #spe .spebox .yuantu div {
+        display: flex;
+        flex-direction: column;
+        position: relative; }
+        #spe .spebox .yuantu div img {
+          width: 200px;
+          height: 200px; }
+        #spe .spebox .yuantu div h4 {
+          font-size: 20px;
+          color: #000;
+          width: 200px;
+          text-align: center;
+          margin-top: 40px;
+          font-weight: 300; }
+        #spe .spebox .yuantu div p {
+          font-size: 12px;
+          width: 260px;
+          text-align: center;
+          position: absolute;
+          left: -30px;
+          top: 278px;
+          color: #666666; }
+        #spe .spebox .yuantu div i {
+          font-size: 12px;
+          width: 260px;
+          text-align: center;
+          position: absolute;
+          left: -30px;
+          top: 300px;
+          color: #666666;
+          font-weight: normal; }
