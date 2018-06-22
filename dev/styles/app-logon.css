@@ -1,0 +1,270 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+i {
+  font-weight: 100;
+  font-style: normal; }
+
+ul,
+ol,
+li {
+  list-style-type: none; }
+
+a {
+  color: #666;
+  text-decoration: none;
+  outline: 0; }
+
+a:hover {
+  text-decoration: none; }
+
+#header {
+  width: 100%;
+  height: 81px;
+  border-bottom: 1px solid #00beaf; }
+  #header .headbox {
+    width: 1200px;
+    height: 81px;
+    margin: 0 auto; }
+    #header .headbox .logo {
+      height: 81px;
+      float: left;
+      width: 190px; }
+      #header .headbox .logo img {
+        width: 68px;
+        height: 79px;
+        display: block;
+        float: left; }
+      #header .headbox .logo span {
+        width: 104px;
+        font-size: 32px;
+        height: 79px;
+        display: block;
+        line-height: 79px;
+        float: left;
+        margin-left: 5px; }
+    #header .headbox .nav, #header .headbox .mobil {
+      float: right; }
+    #header .headbox .nav {
+      width: 420px;
+      height: 81px; }
+      #header .headbox .nav ul {
+        height: 81px; }
+        #header .headbox .nav ul li {
+          height: 81px;
+          float: left;
+          font-size: 16px;
+          padding: 0 20px;
+          line-height: 81px;
+          cursor: pointer; }
+    #header .headbox .active {
+      color: #00beaf; }
+    #header .headbox .mobil {
+      margin-left: 80px; }
+      #header .headbox .mobil span {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url(../imgess/dianhua.jpg);
+        background-size: 20px 20px; }
+      #header .headbox .mobil i {
+        height: 81px;
+        line-height: 81px; }
+
+main {
+  width: 100%;
+  height: 938px;
+  background: url(../imgess/banner03.jpg); }
+  main .logon {
+    width: 1200px;
+    height: 938px;
+    margin: 0 auto;
+    padding-top: 20px;
+    box-sizing: border-box; }
+    main .logon .logon1 {
+      width: 680px;
+      height: 880px;
+      background: #ffffff;
+      padding: 20px;
+      box-sizing: border-box; }
+      main .logon .logon1 h3 {
+        color: #00beaf;
+        font-weight: 400;
+        font-size: 32px;
+        width: 100%;
+        height: 145px;
+        line-height: 145px;
+        text-align: center; }
+      main .logon .logon1 div {
+        width: 100%;
+        height: 110px; }
+        main .logon .logon1 div span {
+          display: inline-block;
+          width: 112px;
+          font-size: 18px;
+          color: #cfcfcf; }
+        main .logon .logon1 div input {
+          width: 470px;
+          height: 80px;
+          padding-left: 20px;
+          outline: 0; }
+        main .logon .logon1 div input::-webkit-input-placeholder {
+          /*WebKit browsers*/
+          color: #e8e8e8;
+          font-size: 20px; }
+        main .logon .logon1 div input::-moz-input-placeholder {
+          /*Mozilla Firefox*/
+          color: #e8e8e8;
+          font-size: 20px; }
+        main .logon .logon1 div input::-ms-input-placeholder {
+          /*Internet Explorer*/
+          color: #e8e8e8;
+          font-size: 20px; }
+      main .logon .logon1 .yanzheng {
+        display: flex;
+        align-items: center; }
+        main .logon .logon1 .yanzheng input {
+          width: 384px; }
+        main .logon .logon1 .yanzheng i {
+          width: 68px;
+          height: 40px;
+          margin-left: 20px;
+          border: 1px solid #cccccc;
+          text-align: center;
+          line-height: 40px;
+          border-radius: 3px;
+          background: #00beaf; }
+      main .logon .logon1 .tiaokuan {
+        height: 30px;
+        position: relative; }
+        main .logon .logon1 .tiaokuan span {
+          position: absolute;
+          left: 110px;
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          background-image: url(../imgess/tongyi.png);
+          background-size: 20px 20px; }
+        main .logon .logon1 .tiaokuan p {
+          position: absolute;
+          left: 150px;
+          color: #c9c9c9; }
+      main .logon .logon1 .btn {
+        width: 600px;
+        height: 85px;
+        background: #457dd9;
+        outline: 0;
+        position: relative;
+        color: #ffffff;
+        font-size: 32px; }
+        main .logon .logon1 .btn:active {
+          top: 2px;
+          left: 2px; }
+
+.foots {
+  width: 1200px;
+  height: 62px;
+  margin: 0 auto; }
+  .foots .leftcopy {
+    width: 480px;
+    height: 62px;
+    line-height: 62px;
+    float: left; }
+    .foots .leftcopy span {
+      display: inline-block;
+      width: 18px;
+      height: 20px;
+      background-image: url(../imgess/ghs.png); }
+  .foots .rightnav {
+    width: 260px;
+    height: 62px;
+    float: right; }
+    .foots .rightnav div {
+      float: left;
+      padding: 0 10px; }
+      .foots .rightnav div a {
+        display: block;
+        font-size: 16px;
+        height: 62px;
+        line-height: 62px; }

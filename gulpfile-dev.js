@@ -25,7 +25,7 @@ gulp.task('server', () => {
   return gulp.src('./dev')
     .pipe(server({
       host: 'localhost',
-      port: 8000,
+      port: 8001,
       livereload: true,
       directoryListing: {
         enable: true,
@@ -46,8 +46,10 @@ gulp.task('js', () => {
     .pipe(webpack({
       entry: {
         app: './src/scripts/app.js',
-        // 'app-more': './src/scripts/app-more.js',
-        // 'app-mine': './src/scripts/app-mine.js',
+        'app-logon': './src/scripts/app-logon.js',
+        'app-login': './src/scripts/app-login.js',
+        'app-reword': './src/scripts/app-reword.js',
+
       },
       output: {
         filename: '[name].js'

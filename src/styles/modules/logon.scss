@@ -1,0 +1,121 @@
+main{
+    width: 100%;
+    height: 938px;
+    background:url(../imgess/banner03.jpg);
+    .logon{
+        width: 1200px;
+        height: 938px;
+        margin: 0 auto;
+        padding-top: 20px;
+        box-sizing: border-box;
+        .logon1{
+            width: 680px;
+            height: 880px;
+            background: #ffffff;
+            padding: 20px;
+            box-sizing: border-box;
+            h3{
+                color: #00beaf;
+                font-weight: 400;
+                font-size: 32px;
+                width: 100%;
+                height: 145px;
+                line-height: 145px;
+                text-align: center;
+            }
+            div{
+                width: 100%;
+                height: 110px;
+                span{
+                    display: inline-block;
+                    width: 112px;
+                    font-size: 18px;
+                    color: #cfcfcf;
+                }
+                input{
+                    width: 470px;
+                    height: 80px;
+                    padding-left: 20px;
+                    outline: 0;
+                    
+                }
+                
+            input::-webkit-input-placeholder{ /*WebKit browsers*/
+
+                color: #e8e8e8;
+                font-size: 20px;
+                
+                }
+            input::-moz-input-placeholder{ /*Mozilla Firefox*/
+
+                color: #e8e8e8;
+                font-size: 20px;
+                
+                }
+                
+            input::-ms-input-placeholder{ /*Internet Explorer*/ 
+            
+                color: #e8e8e8;
+                font-size: 20px;
+            
+            }
+                    
+                    
+
+            }
+            .yanzheng{
+                display: flex;
+                align-items: center;
+                input{
+                    width: 384px;
+                }
+                i{
+                    width:68px;
+                    height: 40px; 
+                    margin-left: 20px;
+                    border: 1px solid #cccccc;
+                    text-align: center;
+                    line-height: 40px;
+                    border-radius: 3px;
+                    background: #00beaf;
+                   
+                }
+            }
+            .tiaokuan{
+                height: 30px;
+                position: relative;
+                span{
+                    position: absolute;
+                    left: 110px;
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    background-image: url(../imgess/tongyi.png);
+                    background-size: 20px 20px;
+                    
+                }
+                p{
+                    position: absolute;
+                    left: 150px;
+                    color: #c9c9c9;
+                }
+            }
+            .btn{
+                width: 600px;
+                height: 85px;
+                background: #457dd9;
+                outline: 0;
+                position: relative;
+                color: #ffffff;
+                font-size: 32px;
+                &:active{
+                    top: 2px;
+                    left: 2px;
+                }
+            }
+
+
+        }
+
+    }
+}

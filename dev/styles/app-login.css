@@ -1,0 +1,314 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+i {
+  font-weight: 100;
+  font-style: normal; }
+
+ul,
+ol,
+li {
+  list-style-type: none; }
+
+a {
+  color: #666;
+  text-decoration: none;
+  outline: 0; }
+
+a:hover {
+  text-decoration: none; }
+
+#header {
+  width: 100%;
+  height: 81px;
+  border-bottom: 1px solid #00beaf; }
+  #header .headbox {
+    width: 1200px;
+    height: 81px;
+    margin: 0 auto; }
+    #header .headbox .logo {
+      height: 81px;
+      float: left;
+      width: 190px; }
+      #header .headbox .logo img {
+        width: 68px;
+        height: 79px;
+        display: block;
+        float: left; }
+      #header .headbox .logo span {
+        width: 104px;
+        font-size: 32px;
+        height: 79px;
+        display: block;
+        line-height: 79px;
+        float: left;
+        margin-left: 5px; }
+    #header .headbox .nav, #header .headbox .mobil {
+      float: right; }
+    #header .headbox .nav {
+      width: 420px;
+      height: 81px; }
+      #header .headbox .nav ul {
+        height: 81px; }
+        #header .headbox .nav ul li {
+          height: 81px;
+          float: left;
+          font-size: 16px;
+          padding: 0 20px;
+          line-height: 81px;
+          cursor: pointer; }
+    #header .headbox .active {
+      color: #00beaf; }
+    #header .headbox .mobil {
+      margin-left: 80px; }
+      #header .headbox .mobil span {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url(../imgess/dianhua.jpg);
+        background-size: 20px 20px; }
+      #header .headbox .mobil i {
+        height: 81px;
+        line-height: 81px; }
+
+main {
+  width: 100%;
+  height: 938px;
+  background: url(../imgess/banner03.jpg); }
+  main .login {
+    width: 1200px;
+    height: 938px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 20px; }
+    main .login .login1 {
+      width: 680px;
+      height: 780px;
+      background: #ffffff;
+      float: right;
+      padding: 0 50px;
+      box-sizing: border-box; }
+      main .login .login1 .tittle {
+        width: 100%;
+        height: 144px;
+        text-align: center;
+        line-height: 144px;
+        font-size: 32px;
+        color: #00beaf; }
+      main .login .login1 .usname {
+        width: 579px;
+        height: 84px;
+        border: 1px solid #cccccc; }
+        main .login .login1 .usname span {
+          display: block;
+          width: 68px;
+          height: 84px;
+          float: left;
+          background-image: url(../imgess/zhanghao.png);
+          background-size: 60px auto;
+          background-repeat: no-repeat;
+          background-position: 4px; }
+        main .login .login1 .usname input {
+          width: 510px;
+          height: 84px;
+          float: left;
+          border: 0;
+          outline: 0;
+          padding: 0; }
+        main .login .login1 .usname input::-webkit-input-placeholder {
+          /*WebKit browsers*/
+          color: #e8e8e8;
+          font-size: 24px; }
+        main .login .login1 .usname input::-moz-input-placeholder {
+          /*Mozilla Firefox*/
+          color: #e8e8e8;
+          font-size: 24px; }
+        main .login .login1 .usname input::-ms-input-placeholder {
+          /*Internet Explorer*/
+          color: #e8e8e8;
+          font-size: 24px; }
+      main .login .login1 .pwd {
+        width: 579px;
+        height: 84px;
+        border: 1px solid #cccccc;
+        margin-top: 40px; }
+        main .login .login1 .pwd span {
+          display: block;
+          width: 68px;
+          height: 84px;
+          float: left;
+          background-image: url(../imgess/denglu-mima.png);
+          background-size: 60px auto;
+          background-repeat: no-repeat;
+          background-position: 4px; }
+        main .login .login1 .pwd input {
+          width: 510px;
+          height: 84px;
+          float: left;
+          border: 0;
+          outline: 0;
+          padding: 0; }
+        main .login .login1 .pwd input::-webkit-input-placeholder {
+          /*WebKit browsers*/
+          color: #e8e8e8;
+          font-size: 24px; }
+        main .login .login1 .pwd input::-moz-input-placeholder {
+          /*Mozilla Firefox*/
+          color: #e8e8e8;
+          font-size: 24px; }
+        main .login .login1 .pwd input::-ms-input-placeholder {
+          /*Internet Explorer*/
+          color: #e8e8e8;
+          font-size: 24px; }
+      main .login .login1 .btn {
+        width: 581px;
+        height: 85px;
+        background: #ef5b00;
+        margin-top: 60px;
+        border-radius: 3px;
+        outline: 0;
+        padding: 0;
+        border: 0;
+        color: #ffffff;
+        font-size: 32px;
+        position: relative; }
+        main .login .login1 .btn:active {
+          top: 2px;
+          left: 2px; }
+      main .login .login1 .xiabox {
+        width: 100%;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+        main .login .login1 .xiabox .jizhu {
+          font-size: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #a8a8a8; }
+          main .login .login1 .xiabox .jizhu span {
+            box-sizing: border-box;
+            display: block;
+            float: left;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 2px solid #a8a8a8;
+            margin-right: 10px; }
+        main .login .login1 .xiabox .zhuce {
+          display: block;
+          float: right;
+          font-size: 20px; }
+          main .login .login1 .xiabox .zhuce a {
+            color: #a8a8a8; }
+          main .login .login1 .xiabox .zhuce span {
+            color: #a8a8a8; }
+
+.foots {
+  width: 1200px;
+  height: 62px;
+  margin: 0 auto; }
+  .foots .leftcopy {
+    width: 480px;
+    height: 62px;
+    line-height: 62px;
+    float: left; }
+    .foots .leftcopy span {
+      display: inline-block;
+      width: 18px;
+      height: 20px;
+      background-image: url(../imgess/ghs.png); }
+  .foots .rightnav {
+    width: 260px;
+    height: 62px;
+    float: right; }
+    .foots .rightnav div {
+      float: left;
+      padding: 0 10px; }
+      .foots .rightnav div a {
+        display: block;
+        font-size: 16px;
+        height: 62px;
+        line-height: 62px; }

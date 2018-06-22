@@ -1,0 +1,174 @@
+main{
+    width: 100%;
+    height: 938px;
+    background:url(../imgess/banner03.jpg);
+    .login{
+        width: 1200px;
+        height: 938px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding-top: 20px;
+        .login1{
+            width: 680px;
+            height: 780px;
+            background: #ffffff;
+            float: right;
+            padding: 0 50px;
+            box-sizing: border-box;
+            .tittle{
+                width: 100%;
+                height: 144px;
+                text-align: center;
+                line-height: 144px;
+                font-size: 32px;
+                color: #00beaf;
+            }
+            .usname{
+                width: 579px;
+                height: 84px;
+                border: 1px solid #cccccc;
+                span{
+                    display:block;
+                    width: 68px;
+                    height: 84px;
+                    float: left;
+                    background-image: url(../imgess/zhanghao.png);
+                    background-size: 60px auto;
+                    background-repeat: no-repeat;
+                    background-position: 4px;
+                    
+
+                }
+                input{
+                    width: 510px;
+                    height: 84px;
+                    float: left;
+                    border: 0;
+                    outline: 0;
+                    padding: 0;
+                }
+                input::-webkit-input-placeholder{ /*WebKit browsers*/
+
+                    color: #e8e8e8;
+                    font-size: 24px;
+                    
+                    }
+                input::-moz-input-placeholder{ /*Mozilla Firefox*/
+    
+                    color: #e8e8e8;
+                    font-size: 24px;
+                    
+                    }
+                    
+                input::-ms-input-placeholder{ /*Internet Explorer*/ 
+                
+                    color: #e8e8e8;
+                    font-size: 24px;
+                
+                }
+            }
+            .pwd{
+                width: 579px;
+                height: 84px;
+                border: 1px solid #cccccc;
+                margin-top: 40px;
+                span{
+                    display:block;
+                    width: 68px;
+                    height: 84px;
+                    float: left;
+                    background-image: url(../imgess/denglu-mima.png);
+                    background-size: 60px auto;
+                    background-repeat: no-repeat;
+                    background-position: 4px;
+                    
+
+                }
+                input{
+                    width: 510px;
+                    height: 84px;
+                    float: left;
+                    border: 0;
+                    outline: 0;
+                    padding: 0;
+                }
+                input::-webkit-input-placeholder{ /*WebKit browsers*/
+
+                    color: #e8e8e8;
+                    font-size: 24px;
+                    
+                    }
+                input::-moz-input-placeholder{ /*Mozilla Firefox*/
+    
+                    color: #e8e8e8;
+                    font-size: 24px;
+                    
+                    }
+                    
+                input::-ms-input-placeholder{ /*Internet Explorer*/ 
+                
+                    color: #e8e8e8;
+                    font-size: 24px;
+                
+                }
+            }
+            .btn{
+                width: 581px;
+                height: 85px;
+                background: #ef5b00;
+                margin-top: 60px;
+                border-radius: 3px;
+                outline: 0;
+                padding: 0;
+                border: 0;
+                color: #ffffff;
+                font-size: 32px;
+                position: relative;
+                &:active{
+                    top: 2px;
+                    left: 2px;
+                }
+            }
+            .xiabox{
+                width: 100%;
+                height: 55px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .jizhu{
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #a8a8a8;
+                    span{
+                        box-sizing: border-box;
+                        display:block;
+                        float: left;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        border: 2px solid #a8a8a8;
+                        margin-right: 10px;
+                    }
+                }
+                .zhuce{
+                    display: block;
+                    float: right;
+                    font-size: 20px;
+                    a{
+                        color: #a8a8a8;
+                    }
+                    span{
+                        color: #a8a8a8;
+                    }
+                }
+            }
+
+
+
+        }
+
+    }
+
+}
