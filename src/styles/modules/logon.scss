@@ -37,6 +37,7 @@ main{
                     height: 80px;
                     padding-left: 20px;
                     outline: 0;
+                    font-size: 24px;
                     
                 }
                 
@@ -67,15 +68,17 @@ main{
                 display: flex;
                 align-items: center;
                 input{
-                    width: 384px;
+                    width: 300px;
+                    font-size: 24px;
+                    
                 }
                 i{
-                    width:68px;
-                    height: 40px; 
+                    width:136px;
+                    height: 58px; 
                     margin-left: 20px;
                     border: 1px solid #cccccc;
                     text-align: center;
-                    line-height: 40px;
+                    line-height: 58px;
                     border-radius: 3px;
                     background: #00beaf;
                    

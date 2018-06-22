@@ -103,7 +103,8 @@ a:hover {
 #header {
   width: 100%;
   height: 81px;
-  border-bottom: 1px solid #00beaf; }
+  border-bottom: 1px solid #00beaf;
+  user-select: none; }
   #header .headbox {
     width: 1200px;
     height: 81px;
@@ -139,6 +140,8 @@ a:hover {
           padding: 0 20px;
           line-height: 81px;
           cursor: pointer; }
+          #header .headbox .nav ul li a {
+            color: #000000; }
     #header .headbox .active {
       color: #00beaf; }
     #header .headbox .mobil {
@@ -156,7 +159,8 @@ a:hover {
 .foots {
   width: 1200px;
   height: 62px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  user-select: none; }
   .foots .leftcopy {
     width: 480px;
     height: 62px;

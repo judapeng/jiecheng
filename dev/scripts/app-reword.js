@@ -73,7 +73,7 @@ module.exports = "<div id=\"container\"></div>"
 /* 1 */
 /***/ (function(module, exports) {
 
-module.exports = "<header id=\"header\">    <div class=\"headbox\">        <div class=\"logo\">            <img src=\"./imgess/logo.jpg\" alt=\"\">            <span>诚洁网</span>        </div>        <div class=\"mobil\">            <span></span>            <i>400-000-9898</i>        </div>        <div class=\"nav\">            <ul>                <li class=\"active\">首页</li>                <li>家庭服务</li>                <li>关于我们</li>                <li>                    <span class=\"login\">登录</span>                    /                    <span class=\"logon\">注册</span>                </li>            </ul>        </div>            </div></header>"
+module.exports = "<header id=\"header\">    <div class=\"headbox\">        <div class=\"logo\">            <img src=\"./imgess/logo.jpg\" alt=\"\">            <span>诚洁网</span>        </div>        <div class=\"mobil\">            <span></span>            <i>400-000-9898</i>        </div>        <div class=\"nav\">            <ul>                <li class=\"active\">首页</li>                <li>家庭服务</li>                <li>关于我们</li>                <li>                    <span class=\"login\">                       <a href=\"http://localhost:8001/login.html\">登录</a>                     </span>                    /                    <span class=\"logon\">                      <a href=\"http://localhost:8001/logon.html\"> 注册</a>                     </span>                </li>            </ul>        </div>            </div></header>"
 
 /***/ }),
 /* 2 */
@@ -108,7 +108,7 @@ $('#container').html(rewordTpl)
 /* 11 */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "<main>    <div class=\"reword\">        <div class=\"reword1\">            <div class=\"tittle\">                找回密码            </div>            <div class=\"e-mail\">                <span></span>                <input type=\"text\" placeholder=\"请输入邮箱账号\">            </div>            <div class=\"yanzheng\">                 <input type=\"text\" placeholder=\"请输入邮箱账号\">                 <span>发送验证码</span>            </div>            <div class=\"pwd\">                    <span></span>                    <input type=\"text\" placeholder=\"请输入新密码（6 - 16位组合密码，不能为纯数字）\">            </div>            <div class=\"pwd\">                    <span></span>                    <input type=\"text\" placeholder=\"请确认新密码（6 - 16位组合密码，不能为纯数字）\">            </div>            <div class=\"queren\">                确认            </div>        </div>    </div>    </main>"
 
 /***/ })
 /******/ ]);

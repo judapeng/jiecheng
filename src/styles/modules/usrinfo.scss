@@ -1,0 +1,94 @@
+main{
+    user-select: none;
+    width: 100%;
+    height: 938px;
+    background: url(../imgess/bveijingh01.jpg);
+    .usrinfo{
+        width: 1200px;
+        height: 100%;
+        padding-top: 122px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        .imgleft{
+            width: 328px;
+            height: 441px;
+            margin-top: 80px;
+            float: left;
+            .waikuang{
+                width: 313px;
+                height: 317px;
+                background: #bfbfbf;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img{
+                    width: 300px;
+                    height: 300px;
+                    border-radius: 50%;
+                }
+            }
+            .shangchuan{
+                width: 173px;
+                height: 68px;
+                border: 1px solid #707070;
+                margin-left: 70px;
+                margin-top: 40px;
+                color: #000000;
+                font-size: 24px;
+                text-align: center;
+                line-height: 68px;
+                position: relative;
+                .touxiang{
+                    width: 173px;
+                    height: 68px;
+                    position: absolute;  
+                    right: 0px;  
+                    top: 0px;  
+                    opacity: 0;  
+                    -ms-filter: 'alpha(opacity=0)';  
+                }
+            }
+        }
+        .rightfil{
+            width: 485px;
+            height: 532px;
+            float: left;
+            margin-left: 40px;
+            .pestittle{
+                width: 100%;
+                height: 98px;
+                text-align: center;
+                color: #00beaf;
+                font-size: 28px;
+            }
+            .usname{
+                font-size: 26px;
+                .usname1{
+                    font-size:26px;
+                    background: transparent;
+                    outline: 0;
+                    border:none;
+                    border-bottom: 1px solid #cccccc;
+                    padding-left: 20px;
+                }
+            }
+            .gender{
+                font-size: 26px;
+                margin-top: 40px;
+                .qier{
+                    margin-left: 30px;
+                }
+            }
+
+        }
+        
+
+    }
+
+
+
+}
+
+
+
+

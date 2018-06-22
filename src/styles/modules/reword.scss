@@ -1,0 +1,187 @@
+main{
+    width: 100%;
+    height: 938px;
+    background:url(../imgess/banner03.jpg);
+    user-select :none;
+    .reword{
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding-top: 20px;
+        .reword1{
+            width: 680px;
+            height: 780px;
+            background: #ffffff;
+            padding: 0 50px;
+            box-sizing: border-box;
+            .tittle{
+                width: 680px;
+                height: 148px;
+                color: #00beaf;
+                font-size: 32px;
+                text-align: center;
+                line-height: 148px;
+            }
+            .e-mail{
+                width: 579px;
+                height: 84px;
+                border: 1px solid #cccccc;
+                span{
+                    display:block;
+                    width: 68px;
+                    height: 84px;
+                    float: left;
+                    background-image: url(../imgess/zhanghao.png);
+                    background-size: 60px auto;
+                    background-repeat: no-repeat;
+                    background-position: 4px;
+                    
+                }
+                input{
+                    width: 510px;
+                    height: 84px;
+                    float: left;
+                    border: 0;
+                    outline: 0;
+                    padding: 0;
+                    font-size: 18px;
+                }
+                input::-webkit-input-placeholder{ /*WebKit browsers*/
+
+                    color: #c9c9c9;
+                    font-size: 18px;
+                    
+                    }
+                input::-moz-input-placeholder{ /*Mozilla Firefox*/
+    
+                    color: #c9c9c9;
+                    font-size: 18px;
+                    
+                    }
+                    
+                input::-ms-input-placeholder{ /*Internet Explorer*/ 
+                
+                    color: #c9c9c9;
+                    font-size: 18px;
+                
+                }
+            }
+            .yanzheng{
+                width: 579px;
+                height: 84px;
+                margin-top: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                input{
+                    width: 420px;
+                    height: 84px;
+                    outline: 0;
+                    padding: 0;
+                    font-size: 18px;
+                    padding-left: 10px;
+                }
+                input::-webkit-input-placeholder{ /*WebKit browsers*/
+
+                    color: #c9c9c9;
+                    font-size: 18px;
+                    
+                    }
+                input::-moz-input-placeholder{ /*Mozilla Firefox*/
+    
+                    color: #c9c9c9;
+                    font-size:18px;
+                    
+                    }
+                    
+                input::-ms-input-placeholder{ /*Internet Explorer*/ 
+                
+                    color: #c9c9c9;
+                    font-size: 18px;
+                
+                }
+                span{
+                    display: block;
+                    width: 138px;
+                    height: 60px;
+                    border:1px solid #cccccc;
+                    box-sizing: border-box;
+                    color: #ffffff;
+                    font-size: 18px;
+                    text-align: center;
+                    line-height: 60px;
+                    background: #00beaf;
+                    border-radius: 3px;
+                }
+            }
+            .pwd{
+                width: 579px;
+                height: 84px;
+                border: 1px solid #cccccc;
+                margin-top: 10px;
+                span{
+                    display:block;
+                    width: 68px;
+                    height: 84px;
+                    float: left;
+                    background-image: url(../imgess/denglu-mima.png);
+                    background-size: 60px auto;
+                    background-repeat: no-repeat;
+                    background-position: 4px;
+                    
+                }
+                input{
+                    width: 510px;
+                    height: 84px;
+                    float: left;
+                    border: 0;
+                    outline: 0;
+                    padding: 0;
+                    font-size: 18px;
+                }
+                input::-webkit-input-placeholder{ /*WebKit browsers*/
+
+                    color: #c9c9c9;
+                    font-size: 18px;
+                    
+                    }
+                input::-moz-input-placeholder{ /*Mozilla Firefox*/
+    
+                    color: #c9c9c9;
+                    font-size: 18px;
+                    
+                    }
+                    
+                input::-ms-input-placeholder{ /*Internet Explorer*/ 
+                
+                    color: #c9c9c9;
+                    font-size: 18px;
+                
+                }
+            }
+            .queren{
+                width: 581px;
+                height: 84px;
+                background: #ef5b00;
+                color: #ffffff;
+                margin-top: 20px;
+                font-size: 32px;
+                text-align: center;
+                line-height: 84px;
+                position: relative;
+                cursor: pointer;
+                border-radius: 3px;
+                &:active{
+                    top: 2px;
+                    left: 2px;
+                }
+            }
+
+        }
+    }
+
+
+
+}

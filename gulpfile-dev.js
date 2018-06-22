@@ -49,7 +49,10 @@ gulp.task('js', () => {
         'app-logon': './src/scripts/app-logon.js',
         'app-login': './src/scripts/app-login.js',
         'app-reword': './src/scripts/app-reword.js',
-
+        'app-usrinfo': './src/scripts/app-usrinfo.js',
+        'app-indent': './src/scripts/app-indent.js',
+        'app-guanyu': './src/scripts/app-guanyu.js',
+        'app-shoplist': './src/scripts/app-shoplist.js',
       },
       output: {
         filename: '[name].js'
@@ -77,6 +80,10 @@ gulp.task('copyimg', () => {
 gulp.task('copyimg1', () => {
   return gulp.src(['./src/imgss/**/*'])
     .pipe(gulp.dest('./dev/imgess'))
+})
+gulp.task('copyimg2', () => {
+  return gulp.src(['./src/uimg/**/*'])
+    .pipe(gulp.dest('./dev/uimg'))
 })
 
 
@@ -107,6 +114,6 @@ gulp.task('watch', () => {
   })
 })
 
-gulp.task('default', ['js', 'scss', 'copyimg', 'copyimg1','copyhtml', 'copylibs' ,'copyicon','server', 'watch'], () => {
+gulp.task('default', ['js', 'scss', 'copyimg', 'copyimg1','copyimg2','copyhtml', 'copylibs' ,'copyicon','server', 'watch'], () => {
   console.log('done.');
 })

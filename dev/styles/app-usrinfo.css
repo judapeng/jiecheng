@@ -1,0 +1,256 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+i {
+  font-weight: 100;
+  font-style: normal; }
+
+ul,
+ol,
+li {
+  list-style-type: none; }
+
+a {
+  color: #666;
+  text-decoration: none;
+  outline: 0; }
+
+a:hover {
+  text-decoration: none; }
+
+#header {
+  width: 100%;
+  height: 81px;
+  border-bottom: 1px solid #00beaf;
+  user-select: none; }
+  #header .headbox {
+    width: 1200px;
+    height: 81px;
+    margin: 0 auto; }
+    #header .headbox .logo {
+      height: 81px;
+      float: left;
+      width: 190px; }
+      #header .headbox .logo img {
+        width: 68px;
+        height: 79px;
+        display: block;
+        float: left; }
+      #header .headbox .logo span {
+        width: 104px;
+        font-size: 32px;
+        height: 79px;
+        display: block;
+        line-height: 79px;
+        float: left;
+        margin-left: 5px; }
+    #header .headbox .nav, #header .headbox .mobil {
+      float: right; }
+    #header .headbox .nav {
+      width: 420px;
+      height: 81px; }
+      #header .headbox .nav ul {
+        height: 81px; }
+        #header .headbox .nav ul li {
+          height: 81px;
+          float: left;
+          font-size: 16px;
+          padding: 0 20px;
+          line-height: 81px;
+          cursor: pointer; }
+          #header .headbox .nav ul li a {
+            color: #000000; }
+    #header .headbox .active {
+      color: #00beaf; }
+    #header .headbox .mobil {
+      margin-left: 80px; }
+      #header .headbox .mobil span {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url(../imgess/dianhua.jpg);
+        background-size: 20px 20px; }
+      #header .headbox .mobil i {
+        height: 81px;
+        line-height: 81px; }
+
+main {
+  user-select: none;
+  width: 100%;
+  height: 938px;
+  background: url(../imgess/bveijingh01.jpg); }
+  main .usrinfo {
+    width: 1200px;
+    height: 100%;
+    padding-top: 122px;
+    box-sizing: border-box;
+    margin: 0 auto; }
+    main .usrinfo .imgleft {
+      width: 328px;
+      height: 441px;
+      margin-top: 80px;
+      float: left; }
+      main .usrinfo .imgleft .waikuang {
+        width: 313px;
+        height: 317px;
+        background: #bfbfbf;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        main .usrinfo .imgleft .waikuang img {
+          width: 300px;
+          height: 300px;
+          border-radius: 50%; }
+      main .usrinfo .imgleft .shangchuan {
+        width: 173px;
+        height: 68px;
+        border: 1px solid #707070;
+        margin-left: 70px;
+        margin-top: 40px;
+        color: #000000;
+        font-size: 24px;
+        text-align: center;
+        line-height: 68px;
+        position: relative; }
+        main .usrinfo .imgleft .shangchuan .touxiang {
+          width: 173px;
+          height: 68px;
+          position: absolute;
+          right: 0px;
+          top: 0px;
+          opacity: 0;
+          -ms-filter: 'alpha(opacity=0)'; }
+    main .usrinfo .rightfil {
+      width: 485px;
+      height: 532px;
+      float: left;
+      margin-left: 40px; }
+      main .usrinfo .rightfil .pestittle {
+        width: 100%;
+        height: 98px;
+        text-align: center;
+        color: #00beaf;
+        font-size: 28px; }
+      main .usrinfo .rightfil .usname {
+        font-size: 26px; }
+        main .usrinfo .rightfil .usname .usname1 {
+          font-size: 26px;
+          background: transparent;
+          outline: 0;
+          border: none;
+          border-bottom: 1px solid #cccccc;
+          padding-left: 20px; }
+      main .usrinfo .rightfil .gender {
+        font-size: 26px;
+        margin-top: 40px; }
+        main .usrinfo .rightfil .gender .qier {
+          margin-left: 30px; }
+
+.foots {
+  width: 1200px;
+  height: 62px;
+  margin: 0 auto;
+  user-select: none; }
+  .foots .leftcopy {
+    width: 480px;
+    height: 62px;
+    line-height: 62px;
+    float: left; }
+    .foots .leftcopy span {
+      display: inline-block;
+      width: 18px;
+      height: 20px;
+      background-image: url(../imgess/ghs.png); }
+  .foots .rightnav {
+    width: 260px;
+    height: 62px;
+    float: right; }
+    .foots .rightnav div {
+      float: left;
+      padding: 0 10px; }
+      .foots .rightnav div a {
+        display: block;
+        font-size: 16px;
+        height: 62px;
+        line-height: 62px; }

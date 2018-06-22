@@ -1,0 +1,253 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+i {
+  font-weight: 100;
+  font-style: normal; }
+
+ul,
+ol,
+li {
+  list-style-type: none; }
+
+a {
+  color: #666;
+  text-decoration: none;
+  outline: 0; }
+
+a:hover {
+  text-decoration: none; }
+
+#header {
+  width: 100%;
+  height: 81px;
+  border-bottom: 1px solid #00beaf;
+  user-select: none; }
+  #header .headbox {
+    width: 1200px;
+    height: 81px;
+    margin: 0 auto; }
+    #header .headbox .logo {
+      height: 81px;
+      float: left;
+      width: 190px; }
+      #header .headbox .logo img {
+        width: 68px;
+        height: 79px;
+        display: block;
+        float: left; }
+      #header .headbox .logo span {
+        width: 104px;
+        font-size: 32px;
+        height: 79px;
+        display: block;
+        line-height: 79px;
+        float: left;
+        margin-left: 5px; }
+    #header .headbox .nav, #header .headbox .mobil {
+      float: right; }
+    #header .headbox .nav {
+      width: 420px;
+      height: 81px; }
+      #header .headbox .nav ul {
+        height: 81px; }
+        #header .headbox .nav ul li {
+          height: 81px;
+          float: left;
+          font-size: 16px;
+          padding: 0 20px;
+          line-height: 81px;
+          cursor: pointer; }
+          #header .headbox .nav ul li a {
+            color: #000000; }
+    #header .headbox .active {
+      color: #00beaf; }
+    #header .headbox .mobil {
+      margin-left: 80px; }
+      #header .headbox .mobil span {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url(../imgess/dianhua.jpg);
+        background-size: 20px 20px; }
+      #header .headbox .mobil i {
+        height: 81px;
+        line-height: 81px; }
+
+main {
+  width: 100%;
+  height: 1020px;
+  background: url(../imgess/beijing02.jpg);
+  user-select: none; }
+  main .indent {
+    width: 1200px;
+    height: 100%;
+    padding-top: 20px;
+    margin: 0 auto; }
+    main .indent .tittle {
+      width: 1200px;
+      height: 138px;
+      text-align: center;
+      line-height: 138px;
+      color: #00beaf;
+      font-size: 32px;
+      box-sizing: border-box;
+      border: none; }
+    main .indent > div {
+      width: 1200px;
+      border-bottom: 1px solid #cccccc;
+      padding: 40px 0; }
+      main .indent > div .indbox {
+        width: 1200px;
+        height: 16px; }
+      main .indent > div span {
+        color: #91908e;
+        display: block;
+        float: left; }
+    main .indent .xiadanbox {
+      border: none;
+      width: 629px;
+      height: 100px;
+      float: right; }
+      main .indent .xiadanbox .jine {
+        padding-top: 40px;
+        float: left; }
+        main .indent .xiadanbox .jine b {
+          color: #6b6b6a;
+          font-weight: normal;
+          float: left;
+          padding-top: 10px; }
+        main .indent .xiadanbox .jine span {
+          float: none;
+          float: left;
+          padding: 0 10px;
+          color: #f33026;
+          font-size: 32px; }
+        main .indent .xiadanbox .jine i {
+          float: left;
+          font-size: 32px;
+          color: #f33026;
+          font-weight: normal; }
+      main .indent .xiadanbox .btn {
+        width: 200px;
+        height: 60px;
+        background: #ef5600;
+        float: left;
+        text-align: center;
+        line-height: 60px;
+        color: #ffffff;
+        margin-top: 40px;
+        margin-left: 60px;
+        position: relative; }
+        main .indent .xiadanbox .btn:active {
+          top: 2px;
+          left: 2px; }
+
+.foots {
+  width: 1200px;
+  height: 62px;
+  margin: 0 auto;
+  user-select: none; }
+  .foots .leftcopy {
+    width: 480px;
+    height: 62px;
+    line-height: 62px;
+    float: left; }
+    .foots .leftcopy span {
+      display: inline-block;
+      width: 18px;
+      height: 20px;
+      background-image: url(../imgess/ghs.png); }
+  .foots .rightnav {
+    width: 260px;
+    height: 62px;
+    float: right; }
+    .foots .rightnav div {
+      float: left;
+      padding: 0 10px; }
+      .foots .rightnav div a {
+        display: block;
+        font-size: 16px;
+        height: 62px;
+        line-height: 62px; }

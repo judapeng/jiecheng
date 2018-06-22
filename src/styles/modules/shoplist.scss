@@ -1,0 +1,163 @@
+main{
+    width: 100%;
+    height: 890px;
+    .shoplist{
+        width: 1200px;
+        height: 423px;
+        margin: 0 auto;
+        .baojiefuwu{
+            width: 116px;
+            height: 35px;
+            color: #ffffff;
+            background: url(../imgess/biaoqian01.png) no-repeat;
+            margin-top: 20px;
+        }
+        .listbox{
+            width: 1200px;
+            height: 310px;
+            margin-top: 25px;
+            .dypai{
+                width: 400px;
+                height: 310px;
+                float: left;
+                .baojie{
+                    width: 350px;
+                    height: 88px;
+                    padding: 3px 0;
+                    box-sizing: border-box;
+                    padding: 13px 5px;
+                    &:hover{
+                        border: 5px solid #00beaf;
+                    }
+                    span{
+                        display: block;
+                        width: 65px;
+                        height: 70px;
+                        background: url(../uimg/6.png) 0 -5px no-repeat;
+                        float: left;
+                        
+                    }
+                    .xiaoright{
+                        float: left;
+                        margin-left: 20px;
+                        h4{
+                            font-size: 20px;
+                            font-weight: bolder;
+                        }
+                        p{
+                            color: #bfbfbf;
+                            font-size: 14px;
+                            margin-top: 10px;
+                        }
+                    }
+                    .wuzi{
+                        background: url(../uimg/9.png) no-repeat;
+                    }
+                    .changqi{
+                        background: url(../uimg/4.png) no-repeat ;
+
+                    }
+
+                }
+                
+            }
+            .depai{
+                width: 400px;
+                height: 310px;
+                float: left;
+                .baojie{
+                    width: 350px;
+                    height: 88px;
+                    padding: 3px 0;
+                    box-sizing: border-box;
+                    padding: 13px 5px;
+
+                    &:hover{
+                        border: 5px solid #00beaf;
+                    }
+                    span{
+                        display: block;
+                        width: 65px;
+                        height: 70px;
+                        background: url(../uimg/1.png) 0 -2px no-repeat;
+                        float: left;
+                        
+                    }
+                    .xiaoright{
+                        float: left;
+                        margin-left: 20px;
+                        h4{
+                            font-size: 20px;
+                            font-weight: bolder;
+                        }
+                        p{
+                            color: #bfbfbf;
+                            font-size: 14px;
+                            margin-top: 10px;
+                        }
+                    }
+                    .wuzi{
+                        background: url(../uimg/2.png) no-repeat;
+                    }
+                    .changqi{
+                        background: url(../uimg/3.png) no-repeat;
+
+                    }
+
+                }
+                
+            }
+            .dspai{
+                width: 400px;
+                height: 310px;
+                float: left;
+                .baojie{
+                    width: 350px;
+                    height: 88px;
+                    padding: 3px 0;
+                    box-sizing: border-box;
+                    padding: 13px 5px;
+                    &:hover{
+                        border: 5px solid #00beaf;
+                    }
+                    span{
+                        display: block;
+                        width: 65px;
+                        height: 70px;
+                        background: url(../uimg/7.png) 0 -2px no-repeat;
+                        float: left;
+                        
+                    }
+                    .xiaoright{
+                        float: left;
+                        margin-left: 20px;
+                        h4{
+                            font-size: 20px;
+                            font-weight: bolder;
+                        }
+                        p{
+                            color: #bfbfbf;
+                            font-size: 14px;
+                            margin-top: 10px;
+                        }
+                    }
+                    .wuzi{
+                        background: url(../uimg/8.png) no-repeat;
+                    }
+                    .changqi{
+                        background: url(../uimg/5.png) no-repeat;
+
+                    }
+
+                }
+                
+            }
+        }
+
+    }
+
+
+
+
+
+}
